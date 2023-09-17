@@ -1,0 +1,10 @@
+def delelig(teller, nevner):
+    if teller % nevner == 0:
+        return True
+    else:
+        return False
+
+teller = 8
+nevner = 8
+
+print(delelig(teller, nevner))
